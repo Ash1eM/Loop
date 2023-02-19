@@ -17,6 +17,6 @@ for(let i = 1000; i >=0; i -=2) {
 
 // favorite shows
 const favShow=["Teen Titans","New Girl","Community","The Amazing World of Gumball","Big Time Rush"]
-for(i = 0; i < favShow.length; i++) {
-    console.log("My #1 favorite show is", favShow[i]);
+for(let i = 0; i < favShow.length; i++) {
+    console.log("My", i ,"favorite show is", favShow[i]);
 }
