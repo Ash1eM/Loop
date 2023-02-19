@@ -3,9 +3,16 @@ for(let i = 1000; i >=0; i -=2) {
     console.log(i);
 }
 
-
-
-
+//loop from 0 to 10000
+ for(let i = 0; i<=10000; i +=2) {
+    if(i===2500) {
+        alert("Quarter of the way there!");
+    } else if(i===5000){
+        alert("Halfway there!");
+    } else if(i===10000){
+        alert("Looping is done!");
+    }
+ }
 
 
 // favorite shows
